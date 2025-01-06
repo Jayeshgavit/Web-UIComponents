@@ -8,7 +8,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background: #000;
-    padding: 30px 10%;
+    padding: 10px 10%;
 }
 
 li, a, button{
@@ -29,6 +29,7 @@ li, a, button{
 .nav-links li{
     display: inline-block;
     padding: 0 20px;
+
 }
 
 .nav-links li a{
@@ -54,4 +55,9 @@ button:hover{
 }
 .logo{
     color: aliceblue;
+    cursor: pointer;
+}
+.logo:hover{
+    transition: 0.3s ease-in-out 0s;
+    color: #0088a9;
 }
